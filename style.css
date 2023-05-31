@@ -19,16 +19,17 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: var(--Dark-Slate-Gre);
+  background-color: var(--Charcoal-Grey);
 
  }
 
  .container {
   display: flex;
-  width: 700px;
+  width: 800px;
   background-color: var(--White);
   padding: 42px;
-  border-radius: 20%;
+  border-radius: 5%;
+  border: var(--White);
  }
 
  .right {
@@ -36,7 +37,7 @@
  }
 
  .left {
-  width: 40%;
+  width: 55%;
  }
 
  .left img {
@@ -74,9 +75,9 @@ button {
   border: none;
   border-radius: 5%;
   outline: none;
-  color:White;
+  color:var(--White);
   cursor: pointer;
-  background-color: hsl(235, 18%, 26%);
+  background-color: var(--Dark-Slate-Grey);
 }
 
 button:hover {
@@ -87,7 +88,7 @@ h1 {
   font-size: 50px;
 }
 
-.hel {
+.card-hel {
   display: none;
 }
 
@@ -95,10 +96,14 @@ h1 {
  list-style-image: url(./assets/images/icon-list.svg);
  display: flex;
  flex-direction: column;
- border-radius: 20%;
- background-color: hsl(0, 0%, 100%);
+ border-radius: 5%;
+ background-color:var(--White);
  width: 400px;
  padding: 40px;
+}
+
+.card h1{
+  font-size: 40px;
 }
 
 .icon-card {
