@@ -1,0 +1,112 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+ :root {
+    --Tomato: hsl(4, 100%, 67%);
+    --Dark-Slate-Grey: hsl(234, 29%, 20%);
+    --Charcoal-Grey: hsl(235, 18%, 26%);
+    --Grey: hsl(231, 7%, 60%);
+    --White: hsl(0, 0%, 100%);
+ }
+
+ * {
+  box-sizing: border-box;
+ }
+
+ body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--Dark-Slate-Gre);
+
+ }
+
+ .container {
+  display: flex;
+  width: 700px;
+  background-color: var(--White);
+  padding: 42px;
+  border-radius: 20%;
+ }
+
+ .right {
+  width: 60%;
+ }
+
+ .left {
+  width: 40%;
+ }
+
+ .left img {
+  width: 100%;
+ }
+
+ul {
+  list-style-image: url(./assets/images/icon-list.svg);
+}
+li {
+  margin-bottom: 10%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+label {
+  margin-bottom: 10px;
+}
+input {
+  padding: 10px 20px;
+  font-family: inherit;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid hsl(231, 7%, 60%) ;
+}
+
+button {
+  font-family: inherit;
+  margin-top: 20px;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5%;
+  outline: none;
+  color:White;
+  cursor: pointer;
+  background-color: hsl(235, 18%, 26%);
+}
+
+button:hover {
+  background-color: var(--Tomato);
+  transition: all 1s;
+}
+h1 {
+  font-size: 50px;
+}
+
+.hel {
+  display: none;
+}
+
+.card {
+ list-style-image: url(./assets/images/icon-list.svg);
+ display: flex;
+ flex-direction: column;
+ border-radius: 20%;
+ background-color: hsl(0, 0%, 100%);
+ width: 400px;
+ padding: 40px;
+}
+
+.icon-card {
+  width: 50px;
+}
+
+.card button {
+  width: 100%;
+}
+
+@media (m) {
+  
+}
