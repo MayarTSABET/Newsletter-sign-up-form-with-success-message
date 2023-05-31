@@ -9,6 +9,8 @@
 
  * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
  }
 
  body {
@@ -107,6 +109,34 @@ h1 {
   width: 100%;
 }
 
-@media (m) {
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column-reverse;
+    width: 95%;
+    padding: 0;
+  }
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  .container h1 {
+    font-size: 30px;
+  }
+  .right {
+    width: 100%;
+    padding: 0;
+  }
+  .left {
+    width: 40%;
+  }
+  form {
+    width: 90%;
+  }
+  .left img {
+    content: url('./assets/images/illustration-sign-up-mobile.svg');
+  }
+  .card {
+    min-height: 100vh;
+  }
   
 }
